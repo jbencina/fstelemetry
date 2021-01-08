@@ -1,14 +1,15 @@
 # FSTelemetry
-Python library collecting Flight Simulator 2020 telemetry into a local csv file using SimConnect.
-Variables for collection are simply defined in a `config.yaml` file. 
+Python library for collecting Flight Simulator 2020 telemetry into a local csv 
+file using SimConnect. Variables for collection are simply defined in a
+`config.yaml` file. 
 
-A
-list of available data points can be found here https://github.com/odwdinc/Python-SimConnect/blob/master/SimConnect/RequestList.py#L234. 
+A list of available data points can be found here at the Python-SimConnect
+GitHub page:
+https://github.com/odwdinc/Python-SimConnect/blob/master/SimConnect/RequestList.py#L234. 
 
-Data is collected every second by default.
 
 ## Getting Started
-Install FSTelemetry
+Install FSTelemetry (https://pypi.org/project/fstelemetry/)
 
 ```bash
 pip install fstelemetry
