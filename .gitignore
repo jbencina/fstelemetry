@@ -1,0 +1,6 @@
+.vscode
+/build
+/dist
+*.csv
+__pycache__
+fstelemetry.egg-info
