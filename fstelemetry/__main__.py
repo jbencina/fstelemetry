@@ -8,8 +8,9 @@ def get_keys(path):
         data = yaml.load(f, Loader=yaml.FullLoader)
 
     keys = data['keys']
-    print(f'Logging {len(keys)} keys from Flight Simulator: '
-                 '','.join(keys)')
+    message = f'Logging {len(keys)} keys from Flight Simulator: '
+    message += ','.join(keys)
+    print(message)
     return keys
 
 def main():
