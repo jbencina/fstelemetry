@@ -1,19 +1,21 @@
   
 from setuptools import setup
+import os
+
+with open('README.md') as f:
+    long_description = f.read()
 
 setup(
     name='fstelemetry',
-    version='0.1.0',
+    version='0.1.1',
     packages=['fstelemetry'],
     url='https://github.com/jbencina/fstelemetry',
-    download_url='https://github.com/jbencina/fstelemetry/archive/v0.1.0.tar.gz',
+    download_url='https://github.com/jbencina/fstelemetry/archive/v0.1.1.tar.gz',
     license='MIT',
     author='John Bencina',
     keywords=['flight', 'simulator', 'simconnect', 'flightsim'],
     description='Capture FS2020 telemery to a csv file',
-    long_description=('Lightweight Python application for capturing telemetry'
-                      ' data from Flight Simulator 2020 into a local csv file'
-                      ' using SimConnect'),
+    long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=[
         'SimConnect==0.4.23',
