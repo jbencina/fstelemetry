@@ -44,9 +44,9 @@ active flight)
 fstelemetry
 ```
 
-This will produce a log file named `log.csv` by default. You can change
-settings such as the config & log file location if needed. You can also
-adjust the delay in logging (default 1.0 seconds). See:
+This will produce a log file named with the current `YYYYMMDDHHMMSS.csv` by
+default. You can change settings such as the config & log file location if
+needed. You can also adjust the delay in logging (default 1.0 seconds). See:
 ```bash
 fstelemetry --help
 usage: fstelemetry [-h] [--config CONFIG] [--log LOG] [--interval INTERVAL]
